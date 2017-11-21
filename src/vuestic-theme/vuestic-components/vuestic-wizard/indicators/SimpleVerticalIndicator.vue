@@ -30,10 +30,10 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "../../../../sass/variables";
-  @import "../../../../../node_modules/bootstrap/scss/functions";
-  @import "../../../../../node_modules/bootstrap/scss/variables";
-  @import "../../../../../node_modules/bootstrap/scss/mixins/breakpoints";
+  @import "../../../../sass/_variables.scss";
+  @import "~bootstrap/scss/functions";
+  @import "~bootstrap/scss/variables";
+  @import "~bootstrap/scss/mixins/breakpoints";
 
   $wizard-steps-height: 100%;
   $wizard-steps-width: 100%;
