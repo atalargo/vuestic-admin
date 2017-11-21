@@ -36,8 +36,9 @@
 
 <script>
   import { mapGetters, mapActions } from 'vuex'
-  import { Collapse } from '../../../../node_modules/bootstrap-vue/es/components'
-  import VuesticScrollbar from '../../vuestic-components/vuestic-scrollbar/VuesticScrollbar'
+  import { Collapse } from 'bootstrap-vue/es/components'
+  import VuesticScrollbar from 'vuestic-components/vuestic-scrollbar/VuesticScrollbar'
+
   export default {
     name: 'sidebar',
 
