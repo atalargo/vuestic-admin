@@ -34,7 +34,8 @@ module.exports = {
       'vuestic-directives': resolve('src/vuestic-theme/vuestic-directives'),
       'vuestic-theme': resolve('src/vuestic-theme'),
       'data': resolve('src/data'),
-      'vuex-store': resolve('src/store')
+      'vuex-store': resolve('src/store'),
+      'vuestic-assets': resolve('src/assets')
     }
   },
   module: {
@@ -81,6 +82,29 @@ module.exports = {
           limit: 10000,
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
+      },
+      {
+        test: /\.scss$/,
+        use: [{
+          loader: "style-loader",
+          options: {
+            includePaths: ['src/assets', '~vuestic-admin/src/assets']
+          }
+        },
+        {
+          loader: "css-loader",
+          options: {
+            alias: {
+              'vuestic-assets': path.resolve('./src/assets')
+            }
+          }
+        },
+        {
+          loader: "sass-loader",
+          options: {
+            includePaths: ['src/assets', '~vuestic-admin/src/assets']
+          }
+        }]
       }
     ]
   }
