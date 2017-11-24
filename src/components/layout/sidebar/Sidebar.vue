@@ -52,7 +52,7 @@
       }),
       toggleMenuItem (item) {
         if (item.children) {
-          this.expand({   // TODO: check default prop
+          this.expand({ // TODO: check default prop
             menuItem: item,
             expand: !item.meta.expanded
           })
