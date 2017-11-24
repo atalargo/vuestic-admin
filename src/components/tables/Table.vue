@@ -194,8 +194,10 @@
 </template>
 
 <script>
-  import Vue from 'vue'
+  import Widget from 'vuestic-components/vuestic-widget/VuesticWidget'
+  import DataTable from 'vuestic-components/vuestic-datatable/VuesticDataTable'
   import BadgeColumn from './BadgeColumn.vue'
+  import Vue from 'vue'
   import FieldsDef from 'vuestic-components/vuestic-datatable/data/fields-definition'
   import ItemsPerPageDef from 'vuestic-components/vuestic-datatable/data/items-per-page-definition'
 

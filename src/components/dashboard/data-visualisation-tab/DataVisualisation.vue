@@ -22,10 +22,12 @@
 </template>
 
 <script>
+  import VuesticChart from 'vuestic-components/vuestic-chart/VuesticChart.vue'
+  import DonutChartData from './DonutChartData'
+  import DataTable from 'vuestic-components/vuestic-datatable/VuesticDataTable.vue'
   import Vue from 'vue'
   import BadgeColumn from 'components/tables/BadgeColumn.vue'
   import LocalData from 'vuestic-components/vuestic-datatable/data/local-data'
-  import DonutChartData from './DonutChartData'
   import FieldsDef from './fields-definition'
 
   Vue.component('badge-column', BadgeColumn)

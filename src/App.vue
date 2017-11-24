@@ -7,7 +7,7 @@
 
 <script>
   import Layout from 'components/layout/Layout'
-  import AuthLayout from 'components/layout/AuthLayout'
+  import AuthLayout from './components/layout/AuthLayout'
   import VuesticPreLoader from 'vuestic-components/vuestic-preloader/VuesticPreLoader.vue'
 
   export default {

@@ -46,9 +46,16 @@
 </template>
 
 <script>
+  import VuesticTabs from 'vuestic-components/vuestic-tabs/VuesticTabs.vue'
+  import VuesticProfileCard from 'vuestic-components/vuestic-profile-card/VuesticProfileCard.vue'
+  import VuesticAlert from 'vuestic-components/vuestic-alert/VuesticAlert'
+  import VuesticChat from 'vuestic-components/vuestic-chat/VuesticChat'
+  import VuesticFeed from 'vuestic-components/vuestic-feed/VuesticFeed.vue'
+  import VuesticSocialNews from 'vuestic-components/vuestic-social-news/VuesticSocialNews.vue'
   import OverviewTab from 'components/dashboard/features-tab/FeaturesTab.vue'
   import SetupProfileTab from 'components/dashboard/setup-profile-tab/SetupProfileTab.vue'
   import LeafletMap from 'components/maps/leaflet-maps/LeafletMap.vue'
+  import chartData from '../statistics/charts/LineChartData'
 
   export default {
     name: 'extra',

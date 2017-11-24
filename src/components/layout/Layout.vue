@@ -23,6 +23,7 @@
   import Navbar from './navbar/Navbar'
   import Sidebar from './sidebar/Sidebar'
   import Resize from 'directives/ResizeHandler'
+  import VuesticPreLoader from 'vuestic-components/vuestic-preloader/VuesticPreLoader.vue'
 
   export default {
     name: 'layout',

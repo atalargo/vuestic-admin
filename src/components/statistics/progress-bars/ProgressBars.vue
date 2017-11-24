@@ -104,6 +104,8 @@
 </template>
 
 <script>
+  import VuesticWidget from 'vuestic-components/vuestic-widget/VuesticWidget.vue'
+
   export default {
     name: 'progress-bars',
 

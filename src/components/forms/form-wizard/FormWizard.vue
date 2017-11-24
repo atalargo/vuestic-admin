@@ -240,7 +240,9 @@
 </template>
 
 <script>
+  import VuesticWizard from 'vuestic-components/vuestic-wizard/VuesticWizard'
   import CountriesList from 'data/CountriesList'
+  import VuesticSimpleSelect from 'vuestic-components/vuestic-simple-select/VuesticSimpleSelect'
 
   export default {
     name: 'form-wizard',

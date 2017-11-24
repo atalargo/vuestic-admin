@@ -23,10 +23,10 @@ import Tooltip from './vuestic-components/vuestic-tooltip/VuesticTooltip.vue'
 import Widget from './vuestic-components/vuestic-widget/VuesticWidget.vue'
 import Wizard from './vuestic-components/vuestic-wizard/VuesticWizard.vue'
 
-import VuesticToasted from './vuestic-mixins/VuesticToasted'
+import VuesticToasted from 'vuestic-mixins/VuesticToasted'
 
-import Dropdown from './vuestic-directives/Dropdown'
-import StickyScroll from './vuestic-directives/StickyScroll'
+import Dropdown from 'vuestic-directives/Dropdown'
+import StickyScroll from 'vuestic-directives/StickyScroll'
 
 const VuesticPlugin = {
   install (Vue, options) {
