@@ -64,11 +64,11 @@ h4, .h4 {
 }
 
 .btn.btn-sm {
-  @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $font-size-smaller, $input-btn-line-height-sm, $btn-border-radius);
+  @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $font-size-smaller, $btn-line-height-sm, $btn-border-radius);
 }
 
 .btn.btn-micro {
-  @include button-size($btn-padding-y-micro, $btn-padding-x-micro, $font-size-smaller, $input-btn-line-height-sm, $btn-border-radius);
+  @include button-size($btn-padding-y-micro, $btn-padding-x-micro, $font-size-smaller, $btn-line-height-sm, $btn-border-radius);
 }
 
 .btn.btn-primary {
