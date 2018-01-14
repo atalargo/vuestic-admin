@@ -61,8 +61,6 @@
 </template>
 
 <script>
-  import Widget from 'vuestic-components/vuestic-widget/VuesticWidget'
-  import Modal from 'vuestic-components/vuestic-modal/VuesticModal'
 
   export default {
     name: 'modals',

@@ -15,8 +15,6 @@
 </template>
 
 <script>
-  import VuesticChat from 'vuestic-components/vuestic-chat/VuesticChat'
-  import VuesticProfileCard from 'vuestic-components/vuestic-profile-card/VuesticProfileCard.vue'
 
   export default {
     name: 'users-members-tab',

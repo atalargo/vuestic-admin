@@ -73,7 +73,6 @@
 </template>
 
 <script>
-  import Widget from 'vuestic-components/vuestic-widget/VuesticWidget'
   import Slider from 'vue-slider-component/src/vue2-slider.vue'
 
   export default {

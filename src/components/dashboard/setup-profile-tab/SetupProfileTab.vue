@@ -60,8 +60,6 @@
 
 <script>
   import CountriesList from 'data/CountriesList'
-  import VuesticWizard from 'vuestic-components/vuestic-wizard/VuesticWizard'
-  import VuesticSimpleSelect from 'vuestic-components/vuestic-simple-select/VuesticSimpleSelect'
 
   export default {
     name: 'setup-profile-tab',

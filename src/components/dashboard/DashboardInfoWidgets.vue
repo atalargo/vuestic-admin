@@ -61,7 +61,6 @@
 </template>
 
 <script>
-  import ProgressBar from 'vuestic-components/vuestic-progress-bar/VuesticProgressBar'
 
   export default {
     name: 'dashboard-info-widgets',

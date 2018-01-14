@@ -29,7 +29,7 @@
 
 <script>
   import Dropdown from 'vuestic-directives/Dropdown'
-  import Scrollbar from '../vuestic-scrollbar/VuesticScrollbar.vue'
+  import Scrollbar from 'vuestic-components/vuestic-scrollbar/VuesticScrollbar.vue'
 
   export default {
     name: 'vuestic-simple-select',

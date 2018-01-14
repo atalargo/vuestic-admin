@@ -263,9 +263,6 @@
 </template>
 
 <script>
-  import VuesticSwitch from 'vuestic-components/vuestic-switch/VuesticSwitch'
-  import VuesticSimpleSelect from 'vuestic-components/vuestic-simple-select/VuesticSimpleSelect'
-  import VuesticMultiSelect from 'vuestic-components/vuestic-multi-select/VuesticMultiSelect'
   import CountriesList from 'data/CountriesList'
 
   export default {

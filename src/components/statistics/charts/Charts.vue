@@ -45,7 +45,6 @@
 </template>
 
 <script>
-  import VuesticChart from 'vuestic-components/vuestic-chart/VuesticChart.vue'
   import LineChartData from 'data/charts/LineChartData'
   import BubbleChartData from 'data/charts/BubbleChartData'
   import PieChartData from 'data/charts/PieChartData'

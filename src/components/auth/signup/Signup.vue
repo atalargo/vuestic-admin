@@ -43,7 +43,7 @@
 </script>
 
 <style lang="scss">
-  @import '../../../sass/variables';
+  @import '../../../sass/_variables';
   @import '~bootstrap/scss/mixins/breakpoints';
   @import "~bootstrap/scss/functions";
   @import '~bootstrap/scss/variables';
