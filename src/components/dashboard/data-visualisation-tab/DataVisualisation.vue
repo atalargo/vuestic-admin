@@ -23,6 +23,7 @@
 <script>
   import Vue from 'vue'
   import BadgeColumn from 'components/tables/BadgeColumn.vue'
+  import DonutChartData from './DonutChartData.js'
   import LocalData from 'vuestic-components/vuestic-datatable/data/local-data'
   import FieldsDef from './fields-definition'
 
