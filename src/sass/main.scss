@@ -1,16 +1,16 @@
-@import "normalize.css";
+@import "~normalize.css";
 
 @import "mixins";
 @import "variables";
 @import "fonts";
 
 @import "~bootstrap/scss/bootstrap";
-@import "font-awesome/css/font-awesome.css";
+@import "~font-awesome/css/font-awesome.css";
 
-@import "ionicons/dist/css/ionicons.css";
-@import "flag-icon-css/css/flag-icon.css";
-@import 'awesome-bootstrap-checkbox';
-@import "medium-editor/src/sass/medium-editor";
+@import "~ionicons/dist/css/ionicons.css";
+@import "~flag-icon-css/css/flag-icon.css";
+@import "~awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.scss";
+@import "~medium-editor/src/sass/medium-editor";
 @import "_icons-styles.scss";
 
 @import "base";

@@ -46,7 +46,7 @@
 </script>
 
 <style lang='scss' scoped>
-  @import '~vuestic-sass/_variables.scss';
+  @import '~vuestic-sass/variables';
 
   .fade-enter-active, .fade-leave-active {
     transition: opacity .5s

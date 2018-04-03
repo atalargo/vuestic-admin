@@ -73,8 +73,6 @@
 </template>
 
 <script>
-  import Slider from 'vue-slider-component/src/vue2-slider.vue'
-
   export default {
     name: 'set',
 
@@ -140,7 +138,7 @@
 </script>
 
 <style lang="scss">
-  @import "../../../sass/variables";
+  @import "~vuestic-sass/variables";
   @import "~bootstrap/scss/mixins/breakpoints";
   @import "~bootstrap/scss/functions";
   @import "~bootstrap/scss/variables";

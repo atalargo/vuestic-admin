@@ -36,7 +36,9 @@ module.exports = {
       'vuestic-theme': resolve('src/vuestic-theme'),
       'data': resolve('src/data'),
       'vuex-store': resolve('src/store'),
-      'vuestic-assets': resolve('src/assets')
+      'vuestic-assets': resolve('src/assets'),
+
+      'vuestic-sass': resolve('src/sass')
     }
   },
   module: {
